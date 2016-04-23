@@ -1,0 +1,15 @@
+<div>
+  <header>
+    <h1>University of Utopia</h1>
+    <nav>
+        <a [routerLink]="['Courses']" href="">Courses</a>
+        <a [routerLink]="['Faculty']" href="">Faculty</a>
+        <a [routerLink]="['Locations']" href="">Locations</a>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <router-outlet></router-outlet>
+    </section>
+  </main>
+</div>

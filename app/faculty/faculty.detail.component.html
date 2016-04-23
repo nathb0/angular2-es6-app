@@ -1,0 +1,15 @@
+<article>
+  <div *ngIf="faculty">
+    <h4>{{faculty.name}} Details</h4>
+
+    <div>
+      <label for="nametext">Name</label>
+      <input type="text" id="nametext" [(ngModel)]="faculty.name" />
+    </div>
+
+    <div>
+      <label for="roletext">Role</label>
+      <input type="text" id="roletext" [(ngModel)]="faculty.role" />
+    </div>
+  </div>
+</article>

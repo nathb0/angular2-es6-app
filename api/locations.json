@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "id": 301,
+      "city": "Kolkata",
+      "dept": ["Science", "Technology", "Engineering", "Medical"]
+    },
+    {
+      "id": 302,
+      "city": "Atlanta",
+      "dept": ["IT"]
+    },
+    {
+      "id": 303,
+      "city": "NY",
+      "dept": ["Sociology"]
+    }
+  ]
+}

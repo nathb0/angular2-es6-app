@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "id": 201,
+      "name": "Bivas N",
+      "role": "Guest Lecturer"
+    },
+    {
+      "id": 202,
+      "name": "Prasad H",
+      "role": "Professor"
+    },
+    {
+      "id": 203,
+      "name": "Lakshmi A",
+      "role": "Dean"
+    }
+  ]
+}

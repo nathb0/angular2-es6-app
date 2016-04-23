@@ -1,0 +1,9 @@
+<div *ngIf="locations.length">
+  <h3>University of Utopia is present in {{locations.length}} locations globally</h3>
+</div>
+
+<ul>
+  <li *ngFor="#location of locations">
+    {{location.city}}
+  </li>
+</ul>

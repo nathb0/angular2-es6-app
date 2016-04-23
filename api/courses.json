@@ -1,0 +1,29 @@
+{
+  "data": [
+    {
+      "id": 101,
+      "name": "Angular2",
+      "credits": "2.6"
+    },
+    {
+      "id": 102,
+      "name": "Enterprise Architecture",
+      "credits": "3.6"
+    },
+    {
+      "id": 103,
+      "name": "Apache Spark",
+      "credits": "2.5"
+    },
+    {
+      "id": 104,
+      "name": "Hadoop",
+      "credits": "4.5"
+    },
+    {
+      "id": 105,
+      "name": "Machine Learning",
+      "credits": "2.2"
+    }
+  ]
+}

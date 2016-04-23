@@ -1,0 +1,14 @@
+<article>
+  <div *ngIf="facultyList.length">
+  <h3>University of Utopia is proud to be associated with {{facultyList.length}} distinguished faculty members</h3>
+</div>
+
+<ul>
+  <li *ngFor="#faculty of facultyList">
+      <a href="" [routerLink]="['FacultyDetail', {id: faculty.id}]">
+       {{faculty.id}}. {{faculty.name}}
+      </a>
+  </li>
+</ul>
+
+</article>

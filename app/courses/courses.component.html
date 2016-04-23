@@ -1,0 +1,11 @@
+<div *ngIf="courses.length">
+  <h3>University of Utopia proudly offers {{courses.length}} courses at various locations</h3>
+</div>
+
+<ul>
+  <li *ngFor="#course of courses">
+       <div (click)="select(course)">{{course.id}}. {{course.name}}</div>
+  </li>
+  
+  <univ-course-detail [course]="selectedCourse"></univ-course-detail>
+</ul>
